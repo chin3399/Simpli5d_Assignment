@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Simpli5d">
+
+	<listeners>
+		<listener class-name="com.google.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Search Box and Logo Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.google.testCases.TC001" />
+			<class name="com.google.testCases.TC002" />
+			<class name="com.google.testCases.TC003" />
+		</classes>
+  </test>
+</suite>
